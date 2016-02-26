@@ -22,7 +22,7 @@
     void (^voidFunction)(void);
     
     
-    ^(block1){
+   
         return 1;
     };
 
