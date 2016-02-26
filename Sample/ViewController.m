@@ -16,7 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    int (^block1)(NSArray *arr1,NSArray *arr2);
+    int(^blockstring)(NSString *str1,NSString *str2,NSString *str3);
+    int(^blockInt)(int x,int y);
+    void (^voidFunction)(void);
+    
+    
+    ^(block1){
+        return 1;
+    };
+
 }
 
 - (void)didReceiveMemoryWarning {
